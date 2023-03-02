@@ -1,0 +1,1123 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(../fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../fonts/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Black;
+    src: url(../fonts/SourceSansPro-Black.otf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'SourceSansPro-Regular', Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.nospace {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tophead_bg .dcrsefnt {
+    /*background-color: #434E60;*/
+    display:inline-block;
+    min-width:30px;
+    padding: 5px 8px;
+    border:1px solid #fff;
+}
+
+.tophead_bg .nrmlfnt {
+    /*background-color: #8A9FB6;*/
+    display:inline-block;
+    min-width:30px;
+    padding: 5px 8px;
+    border:1px solid #fff;
+}
+
+.tophead_bg .incrsefnt {
+    /*background-color: #8EBDF3;*/
+    display:inline-block;
+    min-width:30px;
+    padding: 5px 8px;
+    border:1px solid #fff;
+}
+
+.tophead_bg .bgwhite{
+    background-color:#fff;
+    display:inline-block;
+    min-width:30px;
+    color:#000;
+    padding: 5px 8px;
+    border:1px solid #fff;
+}
+
+.tophead_bg .bgblack{
+    background-color:#000;
+    display:inline-block;
+    min-width:30px;
+    color:#fff;
+    padding: 5px 8px;
+    border:1px solid #fff;
+}
+
+
+.tophead_bg .fntadjust {
+    color: #fff;
+    padding: 0 10px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    background-color: #eaeaea;
+}
+
+.pright0 {
+    padding-right: 0 !important;
+}
+
+.pleft0 {
+    padding-left: 0 !important;
+}
+
+.pleft5 {
+    padding-left: 5px !important;
+}
+
+.mtop0 {
+    margin-top: 0 !important;
+}
+
+.mtop5 {
+    margin-top: 5px !important;
+}
+
+.mtop10 {
+    margin-top: 10px !important;
+}
+
+.mtop15 {
+    margin-top: 15px !important;
+}
+
+.mtop20 {
+    margin-top: 20px !important;
+}
+
+.mtop25 {
+    margin-top: 25px !important;
+}
+
+.mright5 {
+    margin-right: 5px !important;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.p5 {
+    padding: 5px !important;
+}
+
+.p10 {
+    padding: 10px !important;
+}
+
+.ptop0 {
+    padding-top: 0px !important;
+}
+
+.ptop5 {
+    padding-top: 5px !important;
+}
+
+.ptop10 {
+    padding-top: 10px !important;
+}
+
+.ptop15 {
+    padding-top: 15px !important;
+}
+
+.ptop20 {
+    padding-top: 20px !important;
+}
+
+.ptop25 {
+    padding-top: 25px !important;
+}
+
+.ptop30 {
+    padding-top: 30px !important;
+}
+
+header {
+    background-color: #fff;
+}
+
+.btn_disable {
+    background-color: #ddd !important;
+    pointer-events: none !important;
+    border: none !important;
+}
+
+.closepopup {
+    background-color: #0acffe;
+    color: #fff;
+    padding: 8px 0 10px 0px;
+    font-size: 14px;
+    width: 30px;
+    position: relative;
+    height: 30px;
+    display: block;
+    top: -22px;
+    left: 22px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+    .closepopup:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.closepopup2 {
+    background-color: #0acffe;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.3em;
+    width: 30px;
+    position: relative;
+    height: 30px;
+    display: block;
+    top: -22px;
+    left: 22px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+    .closepopup2:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.menu_txtvsble {
+    display: none;
+}
+
+.modal-title {
+    /*background-color:#6e45e2;*/
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.tophead_bg {
+    background-color: #0053A6;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    border-bottom:1px solid rgba(255,255,255,0.5);
+    padding: 0.8em 0 0;
+    margin: 0 auto;
+}
+
+    .tophead_bg ul li {
+        font-family: SourceSansPro-Regular, Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        list-style: none;
+        display: inline-block;
+        padding: 0 .5em;
+    }
+
+        .tophead_bg ul li a {
+            font-family: SourceSansPro-Regular, Helvetica, Arial, sans-serif;
+            color: #fff;
+            font-weight: normal;
+        }
+
+.login_btn {
+    display: inline-block;
+    margin-top: 5px;
+    min-width: 120px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.20em;
+    background-image: -moz-linear-gradient(to left, #0acffe 0%, #495aff 100%);
+    background-image: linear-gradient(to left, #0acffe 0%, #495aff 100%);
+    padding: 0.9em 1.5em;
+    border-radius: 4px;
+}
+
+    .login_btn a, a:focus {
+        text-decoration: none;
+    }
+
+    .login_btn:hover {
+        background-color: #0053A6;
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.topnavcontainer {
+    float: right;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.topnav_bg {
+    background-color: #fff;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-bottom: 2px solid #ccc;
+    padding:10px 0;
+}
+
+.navbar-nav > li {
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+}
+
+    .navbar-nav > li > a {
+        color: #566372 !important;
+    }
+
+        .navbar-nav > li > a.active {
+            background-color: #295196;
+            color: #fff !important;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+        }
+
+.slider_img {
+    float: left;
+    width: 100%;
+    background-image: url(../img/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    padding-bottom: 4em;
+    margin: 0 auto;
+}
+
+.content_txt {
+    background: #F0F0F0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F0F0F0, #DFDFDF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F0F0F0, #DFDFDF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F0F0F0, #DFDFDF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F0F0F0, #DFDFDF); /* Standard syntax */
+    min-height: calc(80vh - 75px);
+    padding: 1em 0;
+    clear: both;
+}
+
+    .content_txt h2 {
+        border-bottom: 2px solid #1A448A;
+        margin: 0 auto;
+        position: relative;
+        width: 80%;
+        top: -11px;
+        clear: both;
+    }
+
+    .content_txt span {
+        position: relative;
+        top: 17px;
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+        background-color: #F0F0F0;
+        color: #19448A;
+        font-size: 1.1em;
+        padding: 0 1em 0;
+        width: 390px;
+        margin: 0 auto 0;
+    }
+
+    .content_txt h3 {
+        border-bottom: 2px solid #1A448A;
+        position: relative;
+        top: -20px;
+        clear: both;
+    }
+
+        .content_txt h3 span {
+            position: relative;
+            top: 17px;
+            left: -26px;
+            font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+            background-color: #F0F0F0;
+            color: #19448A;
+            font-size: 1.2em;
+            padding: 0 1em 0;
+            width: 390px;
+            margin: 0 auto 0;
+        }
+
+    .content_txt h4 {
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+        font-size: 1.4em;
+        background-color: #4F84E8;
+        padding: 5px;
+    }
+
+    .content_txt h5 {
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+        font-size: 1.9em;
+        color: #333;
+        padding: 5px;
+    }
+
+    .content_txt .panel-title:before {
+        font-family: FontAwesome;
+        content: '';
+        font-size: .67em;
+        vertical-align: bottom;
+        color: #999;
+    }
+
+    .content_txt p {
+        font-family: SourceSansPro-Regular, Helvetica, Arial, sans-serif;
+        color: #444;
+        font-size: 1.1em;
+        line-height: 24px;
+    }
+
+    .content_txt b {
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+    }
+
+    .content_txt p a {
+        font-size: 1em;
+    }
+
+    .content_txt li {
+        font-size: 1.1em;
+        color: #555;
+        line-height: 32px;
+        display: inline-flex;
+    }
+
+        .content_txt li:before {
+            font-family: 'FontAwesome';
+            content: '';
+            display: flex;
+            padding-right: 4px;
+        }
+
+.cm_msg {
+    display: block;
+    background-color: rgba(0,100,200,0.7);
+    max-width: 420px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #1E382B;
+    /* padding: 8px; */
+    line-height: 19px;
+    padding: 0.5em 0;
+    margin: 1.5em 0;
+}
+
+    .cm_msg h5, h4, p {
+        color: #fff;
+    }
+
+    .cm_msg p {
+        padding: 0.4em 0.5em;
+        text-align: justify;
+    }
+
+.toploginbox {
+    padding-top: 30px;
+    padding-left: 0;
+}
+
+.postgrvnce_btn {
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: #11C9FD;
+    display: inline-block;
+    color: #fff;
+    border-radius: 2px;
+    padding: 1.5em 1em;
+    min-width: 225px;
+}
+
+    .postgrvnce_btn:hover {
+        background-color: #02C5FD;
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .postgrvnce_btn:focus {
+        color: #fff !important;
+    }
+
+.trackgrvnce_btn {
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: #006DD9;
+    display: inline-block;
+    color: #fff;
+    border-radius: 2px;
+    padding: 1.5em 1em;
+    min-width: 225px;
+    margin-left: 5px;
+}
+
+    .trackgrvnce_btn:hover {
+        background-color: #0062C4;
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .trackgrvnce_btn:focus {
+        color: #fff !important;
+    }
+
+.viewall_btn {
+    display: inline-block;
+    min-width: 250px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.20em;
+    background-color: #2665CE;
+    padding: 0.9em 2.5em;
+}
+
+    .viewall_btn:hover {
+        background-color: #295196;
+        color: #fff;
+        text-decoration: none;
+    }
+
+.bottom_bg {
+    background-color: #003F7D;
+    text-align: center;
+    color: #fff;
+    border-top:1px solid rgba(255,255,255,0.5);
+    padding: 2em 0;
+}
+
+    .bottom_bg ul li {
+        list-style: none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+        padding: 0 1em;
+    }
+
+        .bottom_bg ul li:last-child {
+            border-right: none !important;
+        }
+
+        .bottom_bg ul li a {
+            color: #fff;
+        }
+
+.panel-group .fnt2x {
+    font-size: 0.55em !important;
+}
+
+.panel-group p {
+    color: #555555 !important;
+}
+
+
+.service_countholder{
+    min-height: 240px;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    display: grid;
+}
+
+.service_nme {
+    display: block;
+    position: absolute;
+    top: 40%;
+    font-family: SourceSansPro-Regular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1em;
+    color: #fff;
+    left: 0;
+    right: 0;
+    white-space:pre-line;
+}
+
+.service_count {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+
+
+.ttle_grevnc {
+    background-image: url('/AwazAAwam/img/total_grievance_box.png');
+    background-repeat: no-repeat;
+   right: -100px;
+}
+
+
+.grevnc_dspsd {
+    background-image: url('/AwazAAwam/img/grievance_disposed_box.png');
+    background-repeat: no-repeat;
+    
+}
+
+.grevnc_rjctd {
+    background-image: url('/AwazAAwam/img/grievance_rejected_box.png');
+    background-repeat: no-repeat;
+    left: -100px;
+  
+}
+
+.grevnc_impsed {
+    background-image: url('/AwazAAwam/img/grievance_imposed_box.png');
+    background-repeat: no-repeat;
+    top: -50px;
+    right: -50px;
+
+}
+
+.dspsd_prntge {
+    background-image: url('/AwazAAwam/img/disposed_percentage_box.png');
+    background-repeat: no-repeat;
+    top: -50px; 
+    left: -50px;
+}
+
+
+/*FORMS CSS START HERE*/
+
+.box-container {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .box-container > .box-heading {
+        background-color: #90A4AE;
+        border: 1px solid #90A4AE;
+        border-radius: 3px 3px 0 0;
+        color: #fff;
+        font-size: 1.4em;
+        margin: 0;
+        padding: 2px 15px;
+    }
+
+    .box-container > .box-body-open {
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+    }
+
+    .box-container > .box-body {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #F7F7F7;
+        border-image: none;
+        border-radius: 0 0 3px 3px;
+        -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
+        box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
+        padding: 15px 0;
+    }
+
+.grievance_btnbox {
+    /*padding-top: 4em;
+    padding-left: 15em;*/
+    padding-top: 13em;
+    padding-left: 15em;
+}
+
+.deceasename {
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+}
+
+/*FORMS CSS END HERE*/
+
+.submit_btn {
+    min-width: 120px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.20em;
+    background-color: #243D6C;
+    padding: 0.9em 1.5em;
+    border-radius: 4px;
+}
+
+    .submit_btn:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.reset_btn {
+    min-width: 120px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.20em;
+    background-color: #6E7892;
+    padding: 0.9em 1.5em;
+    border-radius: 4px;
+}
+
+    .reset_btn:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.main_content {
+    background-color: #fff;
+    padding: 2em 0;
+    clear: both;
+}
+
+    .main_content h2 {
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+        color: #34465d;
+        padding-bottom: 0.5em;
+    }
+
+    .main_content p {
+        color: #34495e !important;
+    }
+
+.alignh2 {
+    position: relative;
+    top: 30px;
+    background-color: #f9f9f9;
+    width: 350px;
+    margin: 0 auto 0;
+}
+
+#txtGrievance {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    resize: none;
+    border: 2px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.modal-lg {
+    width: 930px;
+    margin-left: -145px;
+}
+
+/*Login Page CSS START HERE*/
+
+#header_btnLogIn {
+    border: none;
+}
+
+.login_box {
+    background: white;
+    width: 100%;
+    /*box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    font-family: lato;
+    position: relative;*/
+    color: #333;
+    /*border-radius: 10px;*/
+    /*padding-bottom: 5px;*/
+}
+
+    .login_box header {
+        background: #295196;
+        padding: 10px 20px;
+        color: white;
+        font-size: 2em;
+        font-weight: 600;
+        /*border-radius: 10px 10px 0 0;*/
+    }
+
+    .login_box .help {
+        font-size: 0.8em;
+        color: #777;
+    }
+
+    .login_box button {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-family: inherit;
+        color: white;
+        background: #0053A6;
+        outline: none;
+        border: none;
+        padding: 5px 15px;
+        font-size: 1.3em;
+        font-weight: 400;
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+        cursor: pointer;
+        transition: all 0.15s ease-in-out;
+    }
+
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+/*Login Page CSS END HERE*/
+
+
+@media screen and (max-width:1366px) {
+     .ttle_grevnc{
+            right:-50px !important;
+        }
+     .grevnc_rjctd{
+         left: -50px;
+     }
+     .grevnc_impsed{
+         right: -25px;
+     }
+     .dspsd_prntge{
+         left:-25px;
+     }
+}
+
+
+@media screen and (max-width:1024px) {
+    .topnavcontainer {
+        width: 90%;
+    }
+
+    .login_btn {
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .grievance_btnbox {
+        padding-top: 3em;
+        padding-left: 7em;
+    }
+
+    .grievance_btnbox {
+        padding: 4em 0;
+    }
+
+    .cm_msg {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .topnavcontainer {
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .nav > li > a {
+        padding: 15px 16px;
+    }
+
+    .cm_msg {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .grievance_btnbox {
+        padding: 4em 0;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 736px) {
+    .toploginbox {
+        padding-bottom: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .modal-lg {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .menu_txtvsble {
+        display: block;
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+        color: #295196;
+        float: left;
+        font-size: 2em;
+        margin: 0.4em 1em 0.4em 0;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 600px) {
+    .tophead_bg ul li {
+        text-align: left;
+        padding: 0 0.3em;
+    }
+
+    .header_box {
+        text-align: center;
+    }
+
+        .header_box img {
+            display: block;
+            margin: 0 auto;
+        }
+
+    .topnavcontainer {
+        width: 100%;
+    }
+
+    .toploginbox {
+        padding: 30px 0 30px;
+    }
+
+    .modal-lg {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .bottom_bg ul li {
+        display: block;
+    }
+
+    .content_txt h2 {
+        width: 100%;
+    }
+
+    .cm_msg {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu_txtvsble {
+        display: block;
+        font-family: SourceSansPro-Semibold, Helvetica, Arial, sans-serif;
+        color: #295196;
+        float: left;
+        font-size: 2em;
+        margin: 0.4em 1em 0.4em 0;
+    }
+
+    .grievance_btnbox {
+        padding: 0;
+    }
+
+    .slider_img {
+    }
+
+    .postgrvnce_btn, .trackgrvnce_btn {
+        margin: 1em 0 0.1em;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Name: J & K Grievance Portal Description: Designed & Coded by Bunty Verma Version: CSS 3.0 Author: Bunty Verma */

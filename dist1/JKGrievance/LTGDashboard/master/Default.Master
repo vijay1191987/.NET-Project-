@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" ClientIDMode="Static" Inherits="CitizenPortal.LTGDashboard.master.Default" %>
+
+<%@ Register Src="~/LTGDashboard/controls/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/LTGDashboard/controls/LeftMenu.ascx" TagPrefix="uc1" TagName="LeftMenu" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Dashboard - J&K LT. Governor Grievance Cell</title>
+
+    <script src="/AwazAAwam/js/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <script src="/LTGDashboard/js/popper.min.js" type="text/javascript"></script>
+    <script src="/LTGDashboard/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/LTGDashboard/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+    <script src="/LTGDashboard/js/dashboard.js" type="text/javascript"></script>
+    <script src="/Scripts/DataTables/jquery.dataTables.min.js"></script>
+    <script src="/AwazAAwam/js/jqueryDataTableButtons-1.2.4.js"></script>
+
+    <link href="/LTGDashboard/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="/LTGDashboard/css/all.css" type="text/css" rel="stylesheet" />
+    <link href="/LTGDashboard/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/LTGDashboard/css/common.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" type="text/css" rel="stylesheet" />
+    <link href="/Content/DataTables/css/jquery.dataTables.css" rel="stylesheet" />
+    <link href="/AwazAAwam/css/jQueryDataTableButtons.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc1:Header runat="server" id="Header" />
+
+        <div class="wrapper">
+            <uc1:LeftMenu runat="server" id="LeftMenu" />
+            <div class="main-panel" id="main-panel">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            </div>
+    </form>
+</body>
+</html>

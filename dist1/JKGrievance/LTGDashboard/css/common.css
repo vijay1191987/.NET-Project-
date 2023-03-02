@@ -1,0 +1,371 @@
+﻿@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('../fonts/SourceSansPro-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('../fonts/SourceSansPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src: url('../fonts/SourceSansPro-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url('../fonts/SourceSansPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Black';
+    src: url('../fonts/SourceSansPro-Black.otf') format('opentype');
+}
+
+body {
+    font-family: "SourceSansPro-Regular","Helvetica Neue", Arial, sans-serif;
+}
+
+/*Common CSS START Here*/
+.mtop0 {
+    margin-top: 0 !important;
+}
+
+.mtop5 {
+    margin-top: 5px !important;
+}
+
+.mtop10 {
+    margin-top: 10px !important;
+}
+
+.mtop15 {
+    margin-top: 15px !important;
+}
+
+.mtop20 {
+    margin-top: 20px !important;
+}
+
+.mtop25 {
+    margin-top: 25px !important;
+}
+
+.mright5 {
+    margin-right: 5px !important;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.p5 {
+    padding: 5px !important;
+}
+
+.p10 {
+    padding: 10px !important;
+}
+
+.ptop0 {
+    padding-top: 0px !important;
+}
+
+.ptop5 {
+    padding-top: 5px !important;
+}
+
+.ptop10 {
+    padding-top: 10px !important;
+}
+
+.ptop15 {
+    padding-top: 15px !important;
+}
+
+.ptop20 {
+    padding-top: 20px !important;
+}
+
+.ptop25 {
+    padding-top: 25px !important;
+}
+
+.ptop30 {
+    padding-top: 30px !important;
+}
+
+.pright0 {
+    padding-right: 0 !important;
+}
+
+.pright5 {
+    padding-right: 5px !important;
+}
+
+.pright10 {
+    padding-right: 10px !important;
+}
+
+.pright15 {
+    padding-right: 15px !important;
+}
+
+.pright20 {
+    padding-right: 20px !important;
+}
+
+.pbtm0 {
+    padding-bottom: 0 !important;
+}
+
+.pbtm5 {
+    padding-bottom: 5px !important;
+}
+
+.pbtm10 {
+    padding-bottom: 10px !important;
+}
+
+.pbtm15 {
+    padding-bottom: 15px !important;
+}
+
+.pbtm20 {
+    padding-bottom: 20px !important;
+}
+
+.pleft0 {
+    padding-left: 0 !important;
+}
+
+.pleft5 {
+    padding-left: 5px !important;
+}
+
+.pleft10 {
+    padding-left: 10px !important;
+}
+
+.pleft15 {
+    padding-left: 15px !important;
+}
+
+.pleft20 {
+    padding-left: 20px !important;
+}
+
+/*Common CSS END Here*/
+
+
+table tfoot{
+    background-color:#f9f9f9;
+}
+
+.service_countholder {
+    min-height: 240px;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    display: grid;
+}
+
+.service_nme {
+    display: block;
+    position: absolute;
+    top: 32%;
+    font-family: SourceSansPro-Regular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1em;
+    color: #fff;
+    left: 0;
+    right: 0;
+    /*white-space: pre-line;*/
+}
+
+.service_count {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.ttle_grevnc {
+    background-image: url('/AwazAAwam/img/total_grievance_box.png');
+    background-repeat: no-repeat;
+    /*right: -100px;*/
+}
+
+.grevnc_dspsd {
+    background-image: url('/AwazAAwam/img/grievance_disposed_box.png');
+    background-repeat: no-repeat;
+}
+
+.grevnc_rjctd {
+    background-image: url('/AwazAAwam/img/grievance_rejected_box.png');
+    background-repeat: no-repeat;
+    /*left: -100px;*/
+}
+
+.grevnc_impsed {
+    background-image: url('/AwazAAwam/img/grievance_imposed_box.png');
+    background-repeat: no-repeat;
+    /*top: -50px;
+    right: -50px;*/
+}
+
+.dspsd_prntge {
+    background-image: url('/AwazAAwam/img/disposed_percentage_box.png');
+    background-repeat: no-repeat;
+    /*top: -50px;
+    left: -50px;*/
+}
+
+.content h3 {
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+}
+
+.datewise_data {
+    font-size: 0.8em;
+    color: #00B2B2;
+}
+
+    .datewise_data label {
+        color: #00B2B2;
+    }
+
+
+
+
+
+/*Dashboard CSS START Here*/
+
+.dataTables_wrapper {
+    overflow: auto !important;
+}
+
+.navbar a:not(.btn):not(.dropdown-item) {
+    font-family: SourceSansPro-Bold, Helvetica, Arial, sans-serif;
+    color: #fff !important;
+}
+
+
+.usericon_holder {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 100px;
+    float: left;
+    border: 5px solid #fff;
+    margin-right: 10px;
+}
+
+.myuser_icon {
+    position: relative;
+    left: 7px;
+    font-size: 1.2em;
+}
+
+.sidebar .nav li > a, .off-canvas-sidebar .nav li > a {
+    font-family: SourceSansPro-Regular, Helvetica, Arial, sans-serif;
+    font-size: 0.9em !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0.05em;
+}
+
+table.dataTable thead th {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd !important;
+}
+/*.table > tbody > tr:nth-child(odd) {
+    background: #f0f0f0;
+}
+
+.table > tbody > tr:nth-child(even) {
+    background: #f8f8f8;
+}*/
+
+.table td, .table th {
+    padding: .55rem !important;
+}
+
+.table > thead > tr > th {
+    font-size: 1em !important;
+}
+
+.card-category {
+    font-size: 1.2em !important;
+    text-transform: lowercase !important;
+}
+
+.high_performerhd {
+    color: #00B2B2 !important;
+}
+
+.low_performerhd {
+    color: #FF5B26 !important;
+}
+
+.count_box {
+    min-height: 185px !important;
+}
+
+    .count_box .card-header {
+        padding: 0 15px 0 !important;
+    }
+
+.count_txt {
+    font-size: 2.9em;
+}
+
+.count_prcntge {
+    font-size: 1.9em;
+}
+
+.myleft_sidebar {
+    /*top: 107px;*/
+}
+
+.nav li {
+    /*border-bottom:1px solid #ccc;*/
+}
+
+.sidebar .nav p, .off-canvas-sidebar .nav p {
+    /*padding-left:20px;*/
+}
+
+.sidebar .nav li > a, .off-canvas-sidebar .nav li > a {
+    font-size: 0.9em;
+}
+
+/*Dashboard CSS END Here*/
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:600px) {
+    body {
+        font-size: 12px;
+    }
+
+    .ttle_grevnc, .grevnc_dspsd, .grevnc_rjctd, .grevnc_impsed, .dspsd_prntge {
+        /*background-image: none;*/
+        min-height: 100px;
+        /*border: 1px solid #fff;*/
+        margin: 5px auto;
+    }
+
+    .service_nme {
+        font-size: 1em;
+        top: 0;
+    }
+
+    .service_count {
+        font-size: 29px;
+    }
+}
